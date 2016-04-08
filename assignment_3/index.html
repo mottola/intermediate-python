@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The JPEG Image</title>
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js">
+    </script>
+    <!-- Allows jQuery to be used-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!-- The avove three script allow the use of Bootstrap-->
+<style>
+    
+    body {
+        background-color: lightgray;
+        font-family: "Times New Roman";
+        font-weight: bold;
+    }
+    h2 {
+        color:blue;
+        padding-bottom: 10px;
+        padding-left: 80px;
+    }
+    
+    .container {
+        width: 95%;
+        height: 100%;
+    }
+
+    .border {
+        border: 1px dotted blue;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        padding-right: 15px;
+        margin: 2px;
+    }
+
+
+    .left {
+        padding-bottom: 168px;
+    }
+    .right {
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 50px;
+    }
+    .footer {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .white {
+        background-color: white;
+    }
+</style>
+</head>
+
+<body>
+  <h2>The JPEG Image</h2>
+   <section class="container">
+   
+    <div class="container-fluid white">
+        <div class="row">
+            <div class="col-sm-3 border left">
+               
+                <p>The term "JPEG" is an acronym for the Joint Pbotographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MINE type of image/pjpeg when uploading JPEG images. JPEG files usually have a filename extension of .jpg or .jpeg</p>
+                
+                <p>JPEG/JFIF supports a maximum image size of 65,535 x 65,535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).</p>
+                
+                <p>(From <a href="http://en.wikipedia.org/wiki/JPEG">http://en.wikipedia.org/wiki/JPEG)</a></p>  
+            </div>
+        
+        <div class="col-sm-6 border">
+        <img src="http://jpeg.org/images/jpeg-home.jpg">
+        <br>
+        <br>
+        <p>(Image from
+        <a href="http://jpeg.org/images/jpeg-home.jpg">http://jpeg.org/images/jpeg-home.jpg)</a></p>
+        </div>
+        
+        <div class="col-sm-2 border right">
+        <h4>Other Image Types</h4>
+        <ul>
+            <li>jpg</li>
+            <li>png</li>
+            <li>gif</li>
+            <li>bmp</li>
+        </ul>
+        </div>
+    </div>
+</div>
+</section>
+<footer class="footer">
+    <h4>&copy;Stolen Blatantly from Wikipeida</h4>
+</footer>
+</body>
+
+</html>
