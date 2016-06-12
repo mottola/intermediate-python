@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e387f0b-bf17-4514-9c12-e745c9c9d402" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python-basic-facts.py" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../redux-weather-app/.babelrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../redux-weather-app/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../redux-weather-app/README.md" afterPath="" />
@@ -19,8 +18,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../redux-weather-app/webpack.config.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" afterPath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Library/Preferences/WebStorm2016.1/options/colors.scheme.xml" afterPath="$USER_HOME$/Library/Preferences/WebStorm2016.1/options/colors.scheme.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_basics/scope.py" afterPath="$PROJECT_DIR$/python_basics/scope.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_basics/try_and_except.py" afterPath="$PROJECT_DIR$/python_basics/try_and_except.py" />
     </list>
     <ignored path="learnPython.iws" />
     <ignored path=".idea/workspace.xml" />
